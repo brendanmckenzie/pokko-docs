@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: Inter;
+}
+
+main {
+  display: grid;
+
+  align-content: flex-start;
+
+  padding: 2rem;
+  row-gap: 1rem;
+  width: min(100%, 60ch);
+  margin: 0 auto;
+}
+
+main svg {
+  height: 3rem;
+}
